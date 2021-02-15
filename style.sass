@@ -1,0 +1,41 @@
+.calculator
+    width: 400px
+    height: 500px
+    border: 1px solid black
+    border-radius: 10px
+    
+.display
+    height: 30%
+    background-color: red
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+
+.keyboard
+    padding: 10px
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    grid-gap: 10px
+
+.btn
+    border: none
+    border-radius: 50%
+    font-size: 60px
+    border: 1px solid black
+    &:focus
+        outline: none
+    &:hover
+        background-color: black
+        color: white
+        cursor: pointer
+.result,.input 
+    font-size: 31px
+    height: 40%
+    background: none
+    border: none
+    &:focus
+        outline: none
+
+    
+.result
+    text-align: right
+    
